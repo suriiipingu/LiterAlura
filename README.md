@@ -27,7 +27,11 @@ LiterAlura é um projeto desenvolvido de um dos cursos do "Java e Spring Framewo
 Você pode acessar a API Gutendex através do seguinte link: [Gutendex API](https://gutendex.com/)
 
 # Tecnologias utilizadas
-- `Java`
+- `Java 21`
+- `Spring Boot 3`
+- `PostgreSQL`
+- `JPA / Hibernate`
+- `Maven`
 
 # Contribuições
 Feito apenas por mim!
