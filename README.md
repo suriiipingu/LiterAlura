@@ -28,7 +28,7 @@ Você pode acessar a API Gutendex através do seguinte link: [Gutendex API](http
 
 # Tecnologias utilizadas
 - `Java 21`
-- `Spring Boot 3`
+- `Spring Boot 3.3.7`
 - `PostgreSQL`
 - `JPA / Hibernate`
 - `Maven`
