@@ -15,6 +15,10 @@ public class Autor {
     @JsonProperty("name")
     private String nome;
 
+    @ManyToOne
+    @JoinColumn(name = "livro_id")
+    private Livro livro;
+
     @JsonProperty("birth_year")
     private Integer anoNascimento;
 
