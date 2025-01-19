@@ -12,9 +12,9 @@ public class Livro {
 
     private String titulo;
 
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name = "livro_id")
+    @OneToMany(mappedBy = "livro", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Autor> autores;
+
 
     private String idioma;
 
